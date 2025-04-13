@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc -b",
     "check-type": "tsc --noEmit",
@@ -10,7 +13,8 @@
     "check-lint": "eslint",
     "lint-inspect-config": "eslint --inspect-config",
     "format": "prettier . --write",
-    "check-format": "prettier . --check"
+    "check-format": "prettier . --check",
+    "prepare": "pnpm build"
   },
   "exports": {
     ".": "./dist/index.js"
