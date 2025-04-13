@@ -14,7 +14,7 @@
     "lint-inspect-config": "eslint --inspect-config",
     "format": "prettier . --write",
     "check-format": "prettier . --check",
-    "prepare": "yarn build"
+    "prepack": "yarn build"
   },
   "exports": {
     ".": "./dist/index.js"
