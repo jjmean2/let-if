@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    // language and environment
+    "target": "ES2015",
+    "lib": ["ES2015"],
+    "jsx": "preserve",
+    // modules
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "rootDir": "src",
+    // emit
+    "outDir": "dist",
+    "downlevelIteration": true,
+
+    // javascript support
+    "allowJs": true,
+    // completeness
+    "skipLibCheck": true,
+
+    // interop constraints
+    "verbatimModuleSyntax": true,
+    // verbatimModuleSyntax가 설정되었으면, 자동 true
+    // "isolatedModules": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+
+    // type checking
+    "strict": true,
+    "noUncheckedIndexedAccess": true
+  },
+  "include": ["src"]
+}
